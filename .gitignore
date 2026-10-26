@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+*.db
+*.sqlite3
+htmlcov/
+.coverage
+.coverage.*
+
+# Virtual envs
+venv/
+.venv/
+env/
+.env
+
+# FastAPI / Uvicorn
+*.log
+
+# Node / React
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# Environment files (NEVER commit real secrets)
+.env
+frontend/.env
+backend/.env
+
+# OS
+Thumbs.db
+.DS_Store
